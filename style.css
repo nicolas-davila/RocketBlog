@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+header {
+  background-color: var(--purple-bg);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  padding-top: 1.4%;
+  padding-left: 5%;
+}
+
+.lista {
+  padding-top: 1.5%;
+  padding-right: 10%;
+  padding-left: 5%;
+}
+
+.lista-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-right: 50%;
+}
+
+.link {
+  color: #c2c2c2;
+  padding-right: 50%;
+}
+
+.link:hover {
+  cursor: pointer;
+  border-left: solid;
+  border-left-width: 2px;
+  border-radius: 1px;
+  border-left-color: var(--green);
+}
+
+.link4 {
+  color: #c2c2c2;
+}
+
+.link4:hover {
+  cursor: pointer;
+  border-left: solid;
+  border-left-width: 2px;
+  border-radius: 1px;
+  border-left-color: var(--green);
+}
+
+.barra-pesquisa {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+}
+
+.pesquisa {
+  background-color: var(--dark-bg);
+  padding: 5%;
+  border-radius: 5px;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.back-lupa {
+  border-radius: 2px;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: var(--button-bg);
+}
+
+.img-header {
+  float: right;
+}
