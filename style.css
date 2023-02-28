@@ -21,18 +21,17 @@ header {
 .navigation {
   display: flex;
   justify-content: space-between;
+  padding-top: 5%;
 
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
 .logo {
-  padding-top: 1.4%;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 .lista {
-  padding-top: 1.5%;
   padding-right: 10%;
   padding-left: 5%;
 }
@@ -72,15 +71,17 @@ header {
 .barra-pesquisa {
   display: flex;
   flex-direction: row;
-  padding-top: 1%;
-  padding-right: 10%;
+
+  padding-right: 12%;
   padding-bottom: 1%;
 }
 
 .pesquisa {
+  color: white;
   background-color: var(--dark-bg);
   padding: 5%;
   border-radius: 5px;
+  border: none;
 
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -88,12 +89,82 @@ header {
 
 .back-lupa {
   border-radius: 2px;
-  padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
   background-color: var(--button-bg);
+}
+
+.back-lupa:hover {
+  cursor: pointer;
+}
+
+.text-img-header {
+  background-color: var(--purple-bg);
+}
+
+.texto-header {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.titulo1 {
+  color: var(--button-bg);
+  padding-top: 5%;
+  padding-right: 65%;
+  
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.texto1 {
+  color: white;
+  padding-top: 1%;
+  padding-right: 65%;
+
+  font-size: 1.5rem  ;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.botao {
+  color: white;
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400
+}
+
+.seta {
+  padding-left: 0.2%;
+}
+
+.veja-mais {
+  list-style: none;
+}
+
+.veja-mais:hover {
+  cursor: pointer;
 }
 
 .img-header {
   float: right;
+  width: 40vw;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+.post-1 {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.datas {
+  padding-left: 10%;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400
 }
